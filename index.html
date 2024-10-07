@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            div:nth-child(3) {
+                z-index: 3;
+                position: absolute;
+                left: 3vmin;
+                top: 3vmin;
+                background-color: blue;
+            }
+            div:nth-child(2) {
+                z-index: 2;
+                position: absolute;
+                left: 6vmin;
+                top: 6vmin;
+                background-color: lime;
+            }
+            div:nth-child(1) {
+                z-index: 1;
+                position: absolute;
+                left: 9vmin;
+                top: 9vmin;
+                background-color: red;
+            }
+            div {
+                width: 20vmin;
+                height: 10vmin;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <div></div>
+        <div></div>
+    </body>
+</html>
